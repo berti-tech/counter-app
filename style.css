@@ -8,7 +8,7 @@ body {
 
 .container {
     background: white;
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px auto;
     border: 3px solid black;
     border-radius: 10px; 
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 100px;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -34,6 +34,7 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #increment-btn {
@@ -42,6 +43,10 @@ button {
 
 #save-btn {
     background: #1C7947;
+}
+
+#decrement-btn {
+    background: rgb(228, 92, 92);
 }
 
 #save-el {
